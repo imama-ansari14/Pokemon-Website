@@ -1,0 +1,20 @@
+body{margin: 0px;
+padding: 0px;}
+     /*  HEADER   */
+
+.nav-one{height:10vh;
+    background-color: #F5F5F5;
+    box-shadow: 0px 8px 8px 1px rgba(111,100,100,0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{margin: 6px;
+cursor: pointer;
+}
+.one{background:white;
+ /* box-shadow: 0 2px 28px 0 rgba(77, 75, 75, 0.12); */
+}
+
+
+     /* NAVBAR */
