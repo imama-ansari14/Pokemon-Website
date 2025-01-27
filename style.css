@@ -90,9 +90,9 @@ body {
 
 /* HERO SECTION  */
 .hero-sec {
-  background-image: url(Images/backgroundimg.jpeg);
+  background-image: url(Images/background.jpeg);
   margin: 0px 50px;
-  height: 150vh;
+  height: 110vh;
 }
 .herosecone {
   background-color: #1b53ba;
@@ -220,4 +220,160 @@ span {
 position: relative;
 bottom: 120px;
 left: 100px;
+}
+
+     /* SLIDER HERO  */
+.hero-slider{display: flex;
+flex-direction: row;
+gap: 10px;}
+
+.hero-slider img {height: 300px;}
+
+       /*footer*/
+.footer {
+  background-color: #1a1a1a;
+  padding: 40px 20px;
+  font-size: 14px;
+  border-top: 1px solid #333;
+  text-align: center;
+}
+.footer-signup h1 {
+  margin-bottom: 20px;
+  color: white;
+}
+.signup-form {
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.signup-form input,
+.signup-form select,
+.signup-form button {
+  display: block;
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.signup-form button {
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.signup-form button:hover {
+  background-color: #555;
+}
+
+.checkbox-group {
+  text-align: left;
+  display: inline-block;
+  margin-top: 20px;
+  color: white;
+  
+}
+
+.checkbox-group label {
+  display: block;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.checkbox-group a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.checkbox-group a:hover {
+  text-decoration: underline;
+}
+.footer-main {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  gap: 50px;
+  border-right: #ffffff;
+ 
+}
+
+.footer-links {
+  text-align: left;
+  justify-content: center;
+  margin-left: 116px;
+
+}
+
+.footer-links h4 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links ul li {
+  margin-bottom: 8px;
+}
+.footer-links ul li a {
+  color: white;
+  text-decoration: none;
+}
+.footer-links ul li a:hover {
+  text-decoration: underline;
+}
+.footer-social {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.footer-social img {
+  width: 50px;
+  height: 35;
+}
+.footer-info {
+  text-align: left;
+ 
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  gap: 50px;
+  border-right: #ffffff;
+}
+.footer-info ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+.footer-info ul li {
+  display: block;
+  margin-right: 15px;
+}
+.footer-info ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer-info ul li a:hover {
+  text-decoration: underline;
+}
+.bba {
+  display: block;
+  margin: 15px auto;
+  width: 130px;
+  margin-left: 0px;
+  margin-top: -6px;
+}
+
+.footer-info p {
+  font-size: 12px;
+  color: #aaa;
 }
